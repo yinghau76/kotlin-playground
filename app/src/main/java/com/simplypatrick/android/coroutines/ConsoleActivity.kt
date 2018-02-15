@@ -30,6 +30,7 @@ open class ConsoleActivity : AppCompatActivity() {
         val annotatedLine = "${dateFormat.get().format(now)} (${"%4d".format(thread.id)}) $line\n"
 
         handler.post({
+            kotlin.io.println(annotatedLine)
             console.append(annotatedLine)
         })
     }

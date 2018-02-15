@@ -17,7 +17,7 @@ class LaunchActivity : ConsoleActivity() {
 
             val job = async {
                 println("Begin async: $coroutineContext")
-                delay(10000)
+                delay(10_000)
                 println("End async")
                 42
             }
