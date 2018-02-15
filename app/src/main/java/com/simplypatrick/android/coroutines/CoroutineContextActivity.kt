@@ -8,32 +8,36 @@ class CoroutineContextActivity : ConsoleActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        println("Begin onCreate")
+        logThread("Begin onCreate")
 
         launch(UI) {
-            println("Begin launch(UI): ${Thread.currentThread().name}")
+            logThread("Begin launch(UI)")
             delay(10_000)
-            println("End launch(UI): ${Thread.currentThread().name}")
+            logThread("End launch(UI)")
         }
 
         launch(CommonPool) {
-            println("Begin launch(CommonPool): ${Thread.currentThread().name}")
+            logThread("Begin launch(CommonPool)")
             delay(10_000)
-            println("End launch(CommonPool): ${Thread.currentThread().name}")
+            logThread("End launch(CommonPool)")
         }
 
         launch(Unconfined) {
-            println("Begin launch(Unconfined): ${Thread.currentThread().name}")
+            logThread("Begin launch(Unconfined)")
             delay(10_000)
-            println("End launch(Unconfined): ${Thread.currentThread().name}")
+            logThread("End launch(Unconfined)")
         }
 
         launch(newSingleThreadContext("MyOwnThread")) {
-            println("Begin launch(newSingleThreadContext): ${Thread.currentThread().name}")
+            logThread("Begin launch(newSingleThreadContext)")
             delay(10_000)
-            println("End launch(newSingleThreadContext): ${Thread.currentThread().name}")
+            logThread("End launch(newSingleThreadContext)")
         }
 
-        println("End onCreate")
+        logThread("End onCreate")
+    }
+
+    fun logThread(msg: String) {
+        println("$msg: ${Thread.currentThread().name}")
     }
 }
