@@ -20,62 +20,30 @@
             </intent-filter>
         </activity>
         <activity android:name=".ConsoleActivity" />
-        <activity android:name=".LaunchActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".RunBlockingActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".BuildSequenceActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".ProduceActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".DelayActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".ManyCoroutinesActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".TimeoutActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name=".CoroutineContextActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity
+            android:name=".LaunchActivity"
+            android:exported="true" />
+        <activity
+            android:name=".RunBlockingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".BuildSequenceActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ProduceActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DelayActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ManyCoroutinesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".TimeoutActivity"
+            android:exported="true" />
+        <activity
+            android:name=".CoroutineContextActivity"
+            android:exported="true" />
     </application>
 
 </manifest>
