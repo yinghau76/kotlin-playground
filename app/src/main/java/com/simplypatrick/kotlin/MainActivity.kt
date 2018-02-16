@@ -1,8 +1,9 @@
-package com.simplypatrick.android.coroutines
+package com.simplypatrick.kotlin
 
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
+import com.simplypatrick.kotlin.R
 import kotlinx.coroutines.experimental.runBlocking
 
 class MainActivity : ConsoleActivity() {

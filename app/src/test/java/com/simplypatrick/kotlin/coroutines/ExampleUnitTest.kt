@@ -1,4 +1,4 @@
-package com.simplypatrick.android.coroutines
+package com.simplypatrick.kotlin.coroutines
 
 import org.junit.Test
 

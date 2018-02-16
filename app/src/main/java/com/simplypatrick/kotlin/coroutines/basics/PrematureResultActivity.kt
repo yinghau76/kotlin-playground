@@ -1,8 +1,7 @@
-package com.simplypatrick.android.coroutines.basics
+package com.simplypatrick.kotlin.coroutines.basics
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
-import com.simplypatrick.android.coroutines.ConsoleActivity
+import com.simplypatrick.kotlin.ConsoleActivity
 import kotlinx.coroutines.experimental.launch
 import kotlinx.coroutines.experimental.newSingleThreadContext
 import java.util.concurrent.atomic.AtomicInteger

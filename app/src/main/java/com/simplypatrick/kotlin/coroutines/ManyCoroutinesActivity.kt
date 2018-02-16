@@ -1,6 +1,7 @@
-package com.simplypatrick.android.coroutines
+package com.simplypatrick.kotlin.coroutines
 
 import android.os.Bundle
+import com.simplypatrick.kotlin.ConsoleActivity
 import kotlinx.coroutines.experimental.delay
 import kotlinx.coroutines.experimental.launch
 import kotlinx.coroutines.experimental.runBlocking

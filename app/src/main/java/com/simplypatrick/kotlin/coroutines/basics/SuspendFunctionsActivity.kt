@@ -1,7 +1,7 @@
-package com.simplypatrick.android.coroutines.basics
+package com.simplypatrick.kotlin.coroutines.basics
 
 import android.os.Bundle
-import com.simplypatrick.android.coroutines.ConsoleActivity
+import com.simplypatrick.kotlin.ConsoleActivity
 import kotlinx.coroutines.experimental.CommonPool
 import kotlinx.coroutines.experimental.channels.consumeEach
 import kotlinx.coroutines.experimental.channels.produce
