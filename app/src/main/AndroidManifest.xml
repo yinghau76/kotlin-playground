@@ -68,6 +68,9 @@
         <activity
             android:name=".objects.CompanionActivity"
             android:exported="true" />
+        <activity
+            android:name=".objects.EmptyInterfaceActivity"
+            android:exported="true" />
     </application>
 
 </manifest>
