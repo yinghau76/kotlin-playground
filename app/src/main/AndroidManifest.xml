@@ -44,6 +44,27 @@
         <activity
             android:name=".CoroutineContextActivity"
             android:exported="true" />
+        <activity
+            android:name=".basics.FibonacciActivity"
+            android:exported="true" />
+        <activity
+            android:name=".basics.OneHundredCoroutinesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".basics.ParallelExecutionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".basics.PrematureResultActivity"
+            android:exported="true" />
+        <activity
+            android:name=".basics.RunBlockingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".basics.SuspendFunctionsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".basics.DispatchersActivity"
+            android:exported="true" />
     </application>
 
 </manifest>
