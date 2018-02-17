@@ -3,7 +3,6 @@ package com.simplypatrick.kotlin
 import android.os.Bundle
 import android.os.Handler
 import android.support.v7.app.AppCompatActivity
-import com.simplypatrick.kotlin.R
 import kotlinx.android.synthetic.main.activity_console.*
 import java.text.SimpleDateFormat
 import java.util.*
