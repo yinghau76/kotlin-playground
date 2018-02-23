@@ -71,6 +71,9 @@
         <activity
             android:name=".objects.EmptyInterfaceActivity"
             android:exported="true" />
+        <activity
+            android:name=".misc.ExceptionActivity"
+            android:exported="true" />
     </application>
 
 </manifest>
