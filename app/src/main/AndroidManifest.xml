@@ -75,6 +75,9 @@
             android:name=".misc.ExceptionActivity"
             android:exported="true" />
         <activity
+            android:name=".misc.DelegatedPropertiesActivity"
+            android:exported="true" />
+        <activity
             android:name=".misc.ReflectionActivity"
             android:exported="true" />
     </application>
