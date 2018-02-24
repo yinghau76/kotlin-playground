@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.simplypatrick.android.coroutines">
+    package="com.simplypatrick.kotlin">
 
     <application
         android:allowBackup="true"
@@ -21,28 +21,58 @@
         </activity>
         <activity android:name=".ConsoleActivity" />
         <activity
-            android:name=".LaunchActivity"
+            android:name=".coroutines.LaunchActivity"
             android:exported="true" />
         <activity
-            android:name=".RunBlockingActivity"
+            android:name=".coroutines.RunBlockingActivity"
             android:exported="true" />
         <activity
-            android:name=".BuildSequenceActivity"
+            android:name=".coroutines.BuildSequenceActivity"
             android:exported="true" />
         <activity
-            android:name=".ProduceActivity"
+            android:name=".coroutines.ProduceActivity"
             android:exported="true" />
         <activity
-            android:name=".DelayActivity"
+            android:name=".coroutines.DelayActivity"
             android:exported="true" />
         <activity
-            android:name=".ManyCoroutinesActivity"
+            android:name=".coroutines.ManyCoroutinesActivity"
             android:exported="true" />
         <activity
-            android:name=".TimeoutActivity"
+            android:name=".coroutines.TimeoutActivity"
             android:exported="true" />
         <activity
-            android:name=".CoroutineContextActivity"
+            android:name=".coroutines.CoroutineContextActivity"
+            android:exported="true" />
+        <activity
+            android:name=".coroutines.basics.FibonacciActivity"
+            android:exported="true" />
+        <activity
+            android:name=".coroutines.basics.OneHundredCoroutinesActivity"
+            android:exported="true" />
+        <activity
+            android:name=".coroutines.basics.ParallelExecutionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".coroutines.basics.PrematureResultActivity"
+            android:exported="true" />
+        <activity
+            android:name=".coroutines.basics.RunBlockingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".coroutines.basics.SuspendFunctionsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".coroutines.basics.DispatchersActivity"
+            android:exported="true" />
+        <activity
+            android:name=".objects.CompanionActivity"
+            android:exported="true" />
+        <activity
+            android:name=".objects.EmptyInterfaceActivity"
+            android:exported="true" />
+        <activity
+            android:name=".misc.ExceptionActivity"
             android:exported="true" />
     </application>
 

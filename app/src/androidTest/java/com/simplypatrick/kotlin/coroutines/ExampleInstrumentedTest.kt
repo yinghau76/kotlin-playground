@@ -1,4 +1,4 @@
-package com.simplypatrick.android.coroutines
+package com.simplypatrick.kotlin.coroutines
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4

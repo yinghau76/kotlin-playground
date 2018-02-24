@@ -1,4 +1,4 @@
-package com.simplypatrick.android.coroutines
+package com.simplypatrick.kotlin
 
 import android.os.Bundle
 import android.os.Handler

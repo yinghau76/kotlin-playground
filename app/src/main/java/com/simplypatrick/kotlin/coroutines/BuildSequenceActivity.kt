@@ -1,6 +1,7 @@
-package com.simplypatrick.android.coroutines
+package com.simplypatrick.kotlin.coroutines
 
 import android.os.Bundle
+import com.simplypatrick.kotlin.ConsoleActivity
 import kotlin.coroutines.experimental.buildSequence
 
 class BuildSequenceActivity : ConsoleActivity() {
