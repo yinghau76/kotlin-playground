@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">Coroutines</string>
+    <string name="app_name">Kotlin Playground</string>
     <string name="action_settings">Settings</string>
 </resources>
