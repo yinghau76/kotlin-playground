@@ -24,7 +24,7 @@ open class ConsoleActivity : AppCompatActivity() {
         }
     }
 
-    fun println(line: String) {
+    fun println(line: Any) {
         val now = Calendar.getInstance().time
         val thread = Thread.currentThread()
         val annotatedLine = "${dateFormat.get().format(now)} (${"%4d".format(thread.id)}) $line\n"
