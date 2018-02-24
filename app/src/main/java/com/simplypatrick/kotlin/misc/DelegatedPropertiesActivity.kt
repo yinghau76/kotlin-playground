@@ -1,10 +1,10 @@
 package com.simplypatrick.kotlin.misc
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.simplypatrick.kotlin.ConsoleActivity
 import kotlin.reflect.KProperty
 
-class DelegatedPropertiesActivity : AppCompatActivity() {
+class DelegatedPropertiesActivity : ConsoleActivity() {
 
     class Example {
         var p: String by Delegate()
