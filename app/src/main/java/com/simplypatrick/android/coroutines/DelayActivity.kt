@@ -1,6 +1,5 @@
 package com.simplypatrick.android.coroutines
 
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.coroutines.experimental.delay
 import kotlinx.coroutines.experimental.launch
