@@ -74,6 +74,9 @@
         <activity
             android:name=".misc.ExceptionActivity"
             android:exported="true" />
+        <activity
+            android:name=".misc.DelegatedPropertiesActivity"
+            android:exported="true" />
     </application>
 
 </manifest>
